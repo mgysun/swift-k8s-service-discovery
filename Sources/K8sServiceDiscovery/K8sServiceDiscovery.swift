@@ -140,7 +140,7 @@ public final class K8s {
                 return nil
             }
 
-            var scheme = "http"
+            var scheme = "https"
             if port == "443" {
                 scheme = "https"
             }
